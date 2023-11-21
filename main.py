@@ -1,3 +1,5 @@
+import problema1
+
 
 '''Hasta ahora hemos estado
 trabajando con variables que permiten almacenar
@@ -32,4 +34,20 @@ lista4 = ["Juan",45,1.92,False]
 
 
 if __name__ == '__main__':
+
+    ''' 
+    Cantidad de elementos de cada lista:
+    '''
+    print(len(lista1))
+    print(len(lista2))
+    print(len(lista3))
+    print(len(lista4))
+    print()
+    print(lista1)
+
+    print(lista1[3])
+
+    print()
+
+    problema1.sumar_5_enteros()
 
